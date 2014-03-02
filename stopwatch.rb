@@ -5,6 +5,7 @@ Shoes.app height: 200, width: 300 do
   stack margin: 10 do
     caption strong "Shoes ストップウォッチ", :font => "osaka"
 
+    # flow do にすると横並び。stackだと縦。
     stack do
       button "start" do
         @time = Time.now
